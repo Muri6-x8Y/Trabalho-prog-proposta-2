@@ -52,6 +52,15 @@ public class Marciano {
         }
     }
     
+    public void receberDano(){
+        vidas--;
+        System.out.println("O marciano"+ nome +" recebeu dano");
+        if(vidas < 1){
+            destruir(); // deixa o garbage collector trabalhar...
+        }
+        
+    }
+    
     public static int getQuantidade(){
         return quantidade;
     }
