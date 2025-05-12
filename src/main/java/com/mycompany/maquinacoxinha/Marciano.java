@@ -54,8 +54,9 @@ public class Marciano {
     
     public void receberDano(){
         vidas--;
-        System.out.println("O marciano"+ nome +" recebeu dano");
+        System.out.println("O marciano " + nome +" recebeu dano");
         if(vidas < 1){
+            System.out.println("O marciano " + nome + " morreu! :C");
             destruir(); // deixa o garbage collector trabalhar...
         }
         
