@@ -10,4 +10,5 @@
         <maven.compiler.release>24</maven.compiler.release>
         <exec.mainClass>com.mycompany.maquinacoxinha.Main</exec.mainClass>
     </properties>
+    <name>Proposta_II</name>
 </project>
